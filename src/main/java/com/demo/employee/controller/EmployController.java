@@ -38,7 +38,7 @@ public class EmployController {
 	@Autowired
 	StudentService studentService;
 	
-	   @GetMapping("/getHello")
+	   @GetMapping("/")
 	    @ResponseBody
 	    private String welcome() {
 	        return "Welcome to RestTemplate Example.";
